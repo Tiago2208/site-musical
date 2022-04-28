@@ -1,0 +1,13 @@
+p,figure,h1,h2 {
+    text-align: center;
+    text-decoration: underline; 
+ }
+ h1 {
+     font-family: serif;
+ }
+ h2 {
+     font-family: sans-serif;
+ }
+ p {
+     font-family: monospace;
+ }
