@@ -1,8 +1,8 @@
 body {
     font-family:'Lucida Grande', Helvetica, sans-serif;
     width: 940px;
-    margin-right: 500px;
-    margin-left: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 h1 {
     color:#3D3D3D;
