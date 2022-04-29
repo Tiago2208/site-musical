@@ -20,6 +20,6 @@ figure {
     padding: 15px;
     margin: 30px;
 }
-img {
-    margin-bottom: 10px;
+figcaption {
+    margin-top: 10px;
 }
