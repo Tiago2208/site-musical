@@ -1,13 +1,32 @@
 p,figure,h1,h2 {
     text-align: center;
-    text-decoration: underline; 
+    text-decoration: underline;
  }
  h1 {
      font-family: serif;
+     border-top: 1px solid red;
+     border-right: 1px dotted darkblue;
+     border-left: 1px double darkviolet;
+     border-bottom: 1px solid darkgoldenrod;
  }
  h2 {
      font-family: sans-serif;
  }
- p {
-     font-family: monospace;
+ body {
+     font-family:'Lucida Grande',Helvetica, sans-serif;
+     color:lightcyan;
  }
+ p {
+     line-height: 3px;
+     letter-spacing: 3px;
+     word-spacing: 5px;
+     text-indent: 30px;
+ }
+ body {
+     background-image: url(https://i.imgur.com/uAhjMNd.jpg);
+     background-color: gold;
+ }
+ figure {
+    border: 1px solid red;
+ }
+ 
