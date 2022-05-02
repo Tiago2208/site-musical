@@ -14,12 +14,30 @@ h2 {
     background-color: #E1EDF2;
 }
 figure {
+    margin: 30px;
+    padding: 15px;
     text-align: center;
     background-color: whitesmoke;
-    color:lightgray;
-    padding: 15px;
-    margin: 30px;
+    border: 1px solid lightgray;
 }
 figcaption {
     margin-top: 10px;
+}
+ul {
+    list-style-image: url("../img/footer-icone-instagram.svg") ;
+}
+ol {
+    list-style-type: upper-roman;
+}
+.matriz-musicdot {
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+}
+.familia-tupfeln {
+    float: right;
+    width: 275px;
+}
+figure img {
+    width: 100%;
 }
