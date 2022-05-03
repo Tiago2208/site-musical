@@ -4,13 +4,16 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-h1 {
+.Titulo {
+    font-size: 32px;
     color:#3D3D3D;
     background-color: #E1EDF2;
     padding: 10px;
 }
-h2 {
-    border-bottom: 2px solid black;
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
     background-color: #E1EDF2;
 }
 figure {
@@ -40,4 +43,23 @@ ol {
 }
 figure img {
     width: 100%;
+}
+.contato__secao {
+
+}
+.contato__secao--telefone {
+    
+}
+.contato__info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+.contato__info--titulo {
+
+}
+.contato__info--descricao {
+
+}
+.contato__subtitulo {
+    display: inline;
 }
