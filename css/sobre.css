@@ -1,21 +1,28 @@
 body {
-    font-family:'Lucida Grande', Helvetica, sans-serif;
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
     width: 940px;
     margin-right: auto;
     margin-left: auto;
 }
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 .Titulo {
     font-size: 32px;
-    color:#3D3D3D;
+    color: #3D3D3D;
     background-color: #E1EDF2;
     padding: 10px;
 }
+
 .subtitulo {
     font-size: 24px;
     font-weight: bold;
     border-bottom: 1px solid #000000;
     background-color: #E1EDF2;
 }
+
 figure {
     margin: 30px;
     padding: 15px;
@@ -23,43 +30,69 @@ figure {
     background-color: whitesmoke;
     border: 1px solid lightgray;
 }
+
 figcaption {
     margin-top: 10px;
 }
+
 ul {
-    list-style-image: url("../img/footer-icone-instagram.svg") ;
+    list-style-image: url("../img/footer-icone-instagram.svg");
 }
+
 ol {
     list-style-type: upper-roman;
 }
+
 .matriz-musicdot {
     margin-right: auto;
     margin-left: auto;
     width: 550px;
 }
+
 .familia-tupfeln {
     float: right;
     width: 275px;
 }
+
 figure img {
     width: 100%;
 }
-.contato__secao {
 
+.contato__secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
 }
+
 .contato__secao--telefone {
-    
+    margin-left: 32px;
 }
+
 .contato__info {
     margin: 16px 0 24px;
     padding-left: 32px;
 }
-.contato__info--titulo {
 
-}
+.contato__info--titulo,
 .contato__info--descricao {
-
+    display: inline;
 }
+
+.contato__info--descricao {
+    margin-left: 10px;
+}
+
 .contato__subtitulo {
     display: inline;
+}
+.rodape {
+    padding-top: 1.75rem 0;
+    font-size: 1.10rem;
+}
+.rodape__logo {
+    width: 6rem;
+}
+.rodape__copyright {
+    display: inline;
+    margin: 1em;
 }
