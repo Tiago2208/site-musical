@@ -25,6 +25,9 @@
     display: inline-block;
     padding: 1.86em 1.42em;
 }
+.cabecalho__item__menu:hover{
+    background-color: rgb(207, 70, 70);
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=block');
 

@@ -46,7 +46,7 @@
     }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (max-width: 1200px) {
     .rodape {
         display: flex;
         flex-wrap: wrap;
@@ -57,12 +57,12 @@
 
     .rodape__secao--sobre,
     .rodape__secao--cursos,
-    .rodape__secao--links {
-        width: 32%;
+    .rodape__secao--links, .rodape__secao--newsletter {
+        width: 45%;
     }
 
     .rodape__secao--links {
-        order: 3;
+        order: 2;
         margin: 0;
     }
 
@@ -72,7 +72,26 @@
     }
 
     .rodape__secao--sobre {
-        order: 2;
+        order: 3;
+        margin-top: 0;
+    }
+    .rodape__secao--newsletter {
+        order: 4;
+        margin: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        text-align: left;
+    }
+    .rodape__subtitulo {
+        font-size: 1em;
+    }
+    .margin__secao {
+        margin-left: 2em;
         margin-top: 0;
     }
 } 
